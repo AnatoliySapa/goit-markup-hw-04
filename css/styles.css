@@ -1,4 +1,3 @@
-
 :root {
     --header-color: #212121;
     --contacts-color: #757575;
@@ -161,11 +160,23 @@ span {
 }
 
 /* ----------------------------------------HERO------------------------------------------- */
+
 .hero {
     background-color: var(--hero-footer-bgc-color);
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-image: url(../images/background/background-1.jpg);
+    background-image: linear-gradient(to right,
+                rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.8));
 }
 
 .hero-title {
@@ -179,6 +190,7 @@ span {
     color: var(--main-title-color);
     margin: 0 auto;
     margin-bottom: 30px;
+
 
 }
 
@@ -199,8 +211,8 @@ span {
     padding: 10px 32px;
 }
 
- .hero-btn:hover,
- .hero-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #188ce8;
 }
 
