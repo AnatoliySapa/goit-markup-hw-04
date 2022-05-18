@@ -543,6 +543,20 @@ span {
 
 }
 
+
+.follow-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
 .footer-link:hover,
 .footer-link:focus {
     color: var(--accent-color);
