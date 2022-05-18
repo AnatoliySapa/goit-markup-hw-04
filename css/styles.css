@@ -511,6 +511,11 @@ span {
     margin-bottom: 20px;
 }
 
+.footer-content {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-item {
     margin-bottom: 9px;
 }
